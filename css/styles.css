@@ -5,10 +5,11 @@
 }
 
 .main{
-    padding: 110px 15.2%;
+    padding: 50px 15.2%;
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #29455b;
 }
 
 .navlist {
@@ -35,13 +36,31 @@ ul{
     list-style: none;
     padding-inline: 0%;
     padding: 0 12rem;
+    font-family: "Motiva Sans", Sans-serif;
+}
+
+.section_nav .navlist h3{
+    padding-left: 1rem;
+    font-family: "Motiva Sans", Sans-serif;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+.section_nav .navlist button{
+    border-radius: 0px;
+    padding: 4px 14px;
+    background-color: #5c7e10;
+    border: none;
+    color: #fff;
+    text-decoration: none;
+    font-family: "Motiva Sans", Sans-serif;
 }
 
 .section_header{
     background-color: #1b2838;
 }
 
-.section_header img{
+.section_header video{
     max-width: 100%;
 }
 
@@ -56,8 +75,16 @@ ul{
     font-size: 2rem;
     line-height: 20px;
     font-weight: 600;
-    padding-top: 4%;
-    padding-right: 750px;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-right: 800px;
+}
+
+.text_1 h1{
+    font-family: "Motiva Sans", Sans-serif;
+    font-size: 26px;
+    text-transform: uppercase;
+    color: #fff;
 }
 
 .section_product .main .product img{
@@ -79,12 +106,23 @@ ul{
 .section_product .main .product{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    gap: 60px;
+    gap: 80px;
 }
+
+.section_product .main .product h3{
+    color: #fff;
+    font-family: "Motiva Sans", Sans-serif;
+}
+
+.section_product .main .product h4{
+    color: #fff;
+    font-family: "Motiva Sans", Sans-serif;
+}
+
 
 .end{
     background-color: #171a21;
-    padding: 4% 0;
+    padding: 3% 0;
 }
 
 .end_div{
@@ -92,9 +130,10 @@ ul{
 }
 
 .end .end_div h1{
-    color: #fff;
-    font-size: 18px;
+    color: #8098a0;
+    font-size: 14px;
     font-weight: 800;
+    font-family: "Motiva Sans", Sans-serif;
 }
 
 .last_end{
