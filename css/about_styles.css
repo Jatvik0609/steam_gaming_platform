@@ -1,0 +1,113 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.navlist {
+    background-color: #171a21;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 6rem;
+    grid-template-columns: 1fr 1fr;
+}
+
+.navlist img{
+    width: 200px;
+    margin-left: 10%;
+}
+
+ul{
+    gap: 20px;
+    display: flex;
+    flex: 1;
+    justify-content: flex-start;
+    align-items: center;
+    list-style: none;
+    padding-inline: 0%;
+    padding: 0 12rem;
+    font-family: "Motiva Sans", Sans-serif;
+}
+
+.section_nav .navlist ul li{
+    color: #fff;
+}
+
+.section_nav .navlist a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.section_nav .navlist h3{
+    padding-left: 1rem;
+    font-family: "Motiva Sans", Sans-serif;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+.section_nav .navlist button{
+    border-radius: 0px;
+    padding: 4px 14px;
+    background-color: #5c7e10;
+    border: none;
+    color: #fff;
+    text-decoration: none;
+    font-family: "Motiva Sans", Sans-serif;
+    cursor: pointer;
+}
+
+.main .main_div{
+    background: -moz-radial-gradient(circle, rgba(25,39,56,1) 23%, rgba(29,32,36,1) 75%);
+    background: -webkit-radial-gradient(circle, rgba(25,39,56,1) 23%, rgba(29,32,36,1) 75%);
+    background: radial-gradient(circle, rgba(25,39,56,1) 23%, rgba(29,32,36,1) 75%);
+    height: 100vh;
+    text-align: center;
+}
+
+.main .main_div .text {
+    max-width: 600px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 99;
+    font-family: "Motiva Sans", Sans-serif;
+    font-weight: 500;
+    color: #fff;
+    padding: 14rem 0;
+}
+
+.main .main_div .text h1{
+    max-width: 600px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 99;
+    font-family: "Motiva Sans", Sans-serif;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 10px;
+    font-size: 2.4rem;
+}
+
+
+.main .main_div .text h4{
+    max-width: 400px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 99;
+    font-family: "Motiva Sans", Sans-serif;
+    font-weight: 100;
+    color: #fff;
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+
+.main .main_div .text span:hover{
+    transition: 0.45s ease;
+    margin-left: 1rem;
+} 
+
+.main .main_div .text a{
+    color:  #2cb6f5;
+    text-decoration: none;
+}

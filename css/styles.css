@@ -39,6 +39,15 @@ ul{
     font-family: "Motiva Sans", Sans-serif;
 }
 
+.section_nav .navlist ul li{
+    color: #fff;
+}
+
+.section_nav .navlist a{
+    text-decoration: none;
+    color: #fff;
+}
+
 .section_nav .navlist h3{
     padding-left: 1rem;
     font-family: "Motiva Sans", Sans-serif;
@@ -54,6 +63,7 @@ ul{
     color: #fff;
     text-decoration: none;
     font-family: "Motiva Sans", Sans-serif;
+    cursor: pointer;
 }
 
 .section_header{
@@ -93,6 +103,11 @@ ul{
     object-fit: cover;
     text-align: center;
     border-radius: 6px;
+}
+
+.section_product .main .product img:hover{
+    /* border: #fff 1px solid; */
+    
 }
 
 .section_product .main .product h3{
