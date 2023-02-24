@@ -68,7 +68,7 @@ ul{
 
 .main_section{
     background-image: url(../images/new_login_bg_strong_mask.jpg);
-    height: 640px;
+    height: 740px;
 }
 
 .main_section .main_div{
@@ -80,10 +80,15 @@ ul{
     background-color: #181a21;
     height: 360px;
     width: 700px;
+    display: flex;
+    /* justify-content: flex-start; */
+    align-items: center;
+    justify-content: space-between;
+
 }
 
 .main_section .main_div .log_in_page h3{
-    padding-top: 40px;
+    /* padding-top: 40px; */
     padding-left: 50px;
     color: #1999ff;
     font-family: "Motiva Sans", Sans-serif;
@@ -100,6 +105,19 @@ ul{
     border: #393c44;
     border-radius: 2px;
 }
+
+.main_section .main_div .log_in_page div{
+    flex: 0.75;
+    justify-content: flex-end;
+    align-items: center;
+    display: flex;
+
+}
+
+.main_section .main_div .log_in_page img{
+    width: 200px;
+}
+
 
 .main_section .main_div .log_in_page h4{
     color: #afafaf;
@@ -121,15 +139,17 @@ ul{
     font-weight: 200;
     font-size: 12px;
     padding-left: 10px;
+    
 }
 
 .btn{
     font-size: 20px;
     color: azure;
     padding: 1rem 7rem;
-    margin-left: 200px;
+    margin-top  : 14px;
     border: 0px;
     border-radius: 2px;
+    margin-right: 365px;
     background: rgb(6,191,255);
     background: -moz-linear-gradient(90deg, rgba(6,191,255,1) 23%, rgba(44,118,255,1) 75%);
     background: -webkit-linear-gradient(90deg, rgba(6,191,255,1) 23%, rgba(44,118,255,1) 75%);
@@ -142,4 +162,31 @@ ul{
     background: -webkit-linear-gradient(90deg, rgba(6,191,255,1) 39%, rgba(44,118,255,1) 75%);
     background: linear-gradient(90deg, rgba(6,191,255,1) 39%, rgba(44,118,255,1) 75%);
     transition: 0.2s;
+}
+.qr{
+    width: 200px;
+    left: 470px;
+    bottom: 286px;
+    position: relative;
+}
+
+.end{
+    background-color: #171a21;
+    padding: 3% 0;
+}
+
+.end_div{
+    padding: 0 14%;
+}
+
+.end .end_div h1{
+    color: #8098a0;
+    font-size: 14px;
+    font-weight: 800;
+    font-family: "Motiva Sans", Sans-serif;
+}
+
+.last_end{
+    padding: 1% 0;
+    background-color: #1b2838;
 }
