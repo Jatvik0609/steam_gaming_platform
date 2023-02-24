@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/log_in_styles.css">
+</head>
+
+<body>
+
+    <script>
+        function validateform() {
+            var name = document.myform.name.value;
+            var password = document.myform.password.value;
+
+            if (name == null || name == "") {
+                alert("Name can't be blank");
+                return false;
+            }
+            else if (password.length < 6) {
+                alert("Password must be at least 6 characters long.");
+                return false;
+            }
+        }  
+    </script>
+
+    <section class="section_nav">
+        <div class="navlist">
+            <a href="index.html"><img src="images/logo_steam.svg" alt=""></a>
+            <ul>
+                <a href="index.html">
+                    <li>STORE</li>
+                </a>
+                <li>COMMUNITY</li>
+                <a href="about.html">
+                    <li>ABOUT</li>
+                </a>
+                <li>SUPPORT</li>
+            </ul>
+            <a href="install_steam.html"><button>Install steam</button></a>
+            <h3>Log in</h3>
+        </div>
+    </section>
+
+    <section class="main_section">
+        <div class="main_div">
+            <div class="log_in_page">
+                <form name="myform" onsubmit="return validateform()" action="index.html" class="form1">
+                <h3>SIGN IN WITH ACCOUNT NAME</h3>
+                <input type="text" class="input_1" name="name">
+                <h4>PASSWORD</h4>
+                <input type="text" class="input_1" name="password">
+                <input type="checkbox" class="checkbox_1">
+                <label for="">Remember me</label>
+                <div>
+                    <button class="btn">Sign in</button>
+                </div>
+                </form>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>

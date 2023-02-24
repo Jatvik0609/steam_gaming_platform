@@ -107,7 +107,8 @@ ul{
 
 .section_product .main .product img:hover{
     /* border: #fff 1px solid; */
-    
+    background: #eee;
+    box-shadow: rgba(0, 0, 0, 0.15) 5.95px 5.95px 3.6px;
 }
 
 .section_product .main .product h3{

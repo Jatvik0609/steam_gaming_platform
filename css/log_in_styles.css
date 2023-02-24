@@ -1,0 +1,145 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.main{
+    padding: 50px 15.2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #29455b;
+}
+
+.navlist {
+    background-color: #171a21;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 6rem;
+    grid-template-columns: 1fr 1fr;
+}
+
+.navlist img{
+    width: 200px;
+    margin-left: 10%;
+}
+
+ul{
+    gap: 20px;
+    display: flex;
+    flex: 1;
+    justify-content: flex-start;
+    align-items: center;
+    list-style: none;
+    padding-inline: 0%;
+    padding: 0 12rem;
+    font-family: "Motiva Sans", Sans-serif;
+}
+
+.section_nav .navlist ul li{
+    color: #fff;
+}
+
+.section_nav .navlist a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.section_nav .navlist h3{
+    padding-left: 1rem;
+    font-family: "Motiva Sans", Sans-serif;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+.section_nav .navlist button{
+    border-radius: 0px;
+    padding: 4px 14px;
+    background-color: #5c7e10;
+    border: none;
+    color: #fff;
+    text-decoration: none;
+    font-family: "Motiva Sans", Sans-serif;
+    cursor: pointer;
+}
+
+.main_section{
+    background-image: url(/images/new_login_bg_strong_mask.jpg);
+    height: 640px;
+}
+
+.main_section .main_div{
+    padding: 9rem 22rem;
+    /* background-color: #5c7e10; */
+}
+
+.main_section .main_div .log_in_page{
+    background-color: #181a21;
+    height: 360px;
+    width: 700px;
+}
+
+.main_section .main_div .log_in_page h3{
+    padding-top: 40px;
+    padding-left: 50px;
+    color: #1999ff;
+    font-family: "Motiva Sans", Sans-serif;
+    font-weight: 200;
+    font-size: 16px;
+}
+
+.main_section .main_div .log_in_page .input_1{
+    margin-top: 10px;
+    margin-left: 50px;
+    margin-right: 250px;
+    padding: 0.8rem 8rem;
+    background-color: #393c44;
+    border: #393c44;
+    border-radius: 2px;
+}
+
+.main_section .main_div .log_in_page h4{
+    color: #afafaf;
+    padding-top: 20px;
+    padding-left: 50px;
+    font-family: "Motiva Sans", Sans-serif;
+    font-weight: 200;
+    font-size: 14px;
+}
+
+.main_section .main_div .log_in_page .checkbox_1{
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+.main_section .main_div .log_in_page label{
+    color: #afafaf;
+    font-family: "Motiva Sans", Sans-serif;
+    font-weight: 200;
+    font-size: 12px;
+    padding-left: 10px;
+}
+
+.btn{
+    font-size: 20px;
+    color: azure;
+    padding: 1rem 7rem;
+    margin-left: 200px;
+    border: 0px;
+    border-radius: 2px;
+    background: rgb(6,191,255);
+    background: -moz-linear-gradient(90deg, rgba(6,191,255,1) 23%, rgba(44,118,255,1) 75%);
+    background: -webkit-linear-gradient(90deg, rgba(6,191,255,1) 23%, rgba(44,118,255,1) 75%);
+    background: linear-gradient(90deg, rgba(6,191,255,1) 23%, rgba(44,118,255,1) 75%);
+}
+
+.btn:hover{
+    background: rgb(6,191,255);
+    background: -moz-linear-gradient(90deg, rgba(6,191,255,1) 39%, rgba(44,118,255,1) 75%);
+    background: -webkit-linear-gradient(90deg, rgba(6,191,255,1) 39%, rgba(44,118,255,1) 75%);
+    background: linear-gradient(90deg, rgba(6,191,255,1) 39%, rgba(44,118,255,1) 75%);
+    transition: 0.2s;
+}
