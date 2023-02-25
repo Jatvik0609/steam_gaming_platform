@@ -1,0 +1,91 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.main{
+    padding: 50px 15.2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #29455b;
+}
+
+.navlist {
+    background-color: #171a21;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 6rem;
+    grid-template-columns: 1fr 1fr;
+}
+
+.navlist img{
+    width: 200px;
+    margin-left: 10%;
+}
+
+ul{
+    gap: 20px;
+    display: flex;
+    flex: 1;
+    justify-content: flex-start;
+    align-items: center;
+    list-style: none;
+    padding-inline: 0%;
+    padding: 0 12rem;
+    font-family: "Motiva Sans", Sans-serif;
+}
+
+.section_nav .navlist ul li{
+    color: #fff;
+}
+
+.section_nav .navlist a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.section_nav .navlist h3{
+    padding-left: 1rem;
+    font-family: "Motiva Sans", Sans-serif;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+.section_nav .navlist button{
+    border-radius: 0px;
+    padding: 4px 14px;
+    background-color: #5c7e10;
+    border: none;
+    color: #fff;
+    text-decoration: none;
+    font-family: "Motiva Sans", Sans-serif;
+    cursor: pointer;
+}
+
+.main_section {
+    background: -moz-radial-gradient(circle, rgba(25,39,56,1) 23%, rgba(29,32,36,1) 75%);
+    background: -webkit-radial-gradient(circle, rgba(25,39,56,1) 23%, rgba(29,32,36,1) 75%);
+    background: radial-gradient(circle, rgba(25,39,56,1) 23%, rgba(29,32,36,1) 75%);
+    height: 100vh;
+}
+
+.main_section .main_div h5{
+    text-align: center;
+    color: #fff;
+    font-size: 20spx;
+    font-weight: 400;
+    padding-top: 10rem;
+    padding-left: 12rem;
+    padding-right: 12rem;
+    padding-bottom: 5rem;
+}
+
+.main_section .div_1 video{
+    width: 30%;
+    margin-left: 35%;
+    border-radius: 5px;
+}
